@@ -3,6 +3,8 @@
 ## Project Overview
 Snap-Shop is a **Portuguese used-goods marketplace aggregator** that unifies listings from **OLX**, **Vinted**, and **Wallapop**.
 
+![image_alt](https://github.com/DiogoPereira3/Snap-Shop/blob/main/interface.jpg?raw=true)
+
 ### Key Features
 - **Image-based search:** Upload a product image; a **multimodal LLM (Gemini 2.5 Flash Lite)** generates a precise Portuguese description used to query marketplaces.
 - **Smart search (toggleable):** After scraping listings, the app downloads listing images and performs **feature extraction** on both the user’s image and the scraped images. Results are filtered by a **cosine-similarity** threshold and sorted by similarity.
@@ -12,11 +14,11 @@ Snap-Shop is a **Portuguese used-goods marketplace aggregator** that unifies lis
 
 ## Technologies Used
 
-- **Frontend:** React, Vite, Tailwind CSS
-- **Backend:** FastAPI (Python), Uvicorn
-- **AI/ML:** Gemini API (`gemini-2.5-flash-lite-preview-06-17`), Image feature extraction using classification models such as ResNet-50 and MobileNetV3-Large, Image comparison through cossine similarity
-- **Web Scraping:** Public but undocumented marketplace endpoints (OLX, Vinted, Wallapop)
-- **Containerization:** Docker, Docker Compose
+- **Frontend:** React, Vite, Tailwind CSS.
+- **Backend:** FastAPI (Python), Uvicorn.
+- **AI/ML:** Gemini API (`gemini-2.5-flash-lite-preview-06-17`), Image feature extraction using classification models such as ResNet-50 and MobileNetV3-Large, Image comparison through cossine similarity.
+- **Web Scraping:** Public but undocumented marketplace endpoints (OLX, Vinted, Wallapop).
+- **Containerization:** Docker, Docker Compose.
 
 ---
 
